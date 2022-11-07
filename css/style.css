@@ -141,7 +141,7 @@ body {
     }
 
     .paragraphe-instructions, .main-home-title {
-        text-justify: inter-word;
+        text-align: justify;
         font-size: large;
     }
 
