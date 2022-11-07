@@ -6,6 +6,7 @@ body {
     border: 1px none;
     display: flex;
     flex-direction: column;
+    width: auto;
 }
 
 .banderolle-principale {
@@ -13,7 +14,7 @@ body {
     border: 1px none;
     display: flex;
     gap: 36px;
-    padding: 60px;
+    padding: 60px 0;
     width: fit-content;
 }
 
