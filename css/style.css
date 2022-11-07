@@ -372,12 +372,31 @@ body {
     }
 
     .paragraphe-instructions, .main-home-title {
-        max-width: 60%;
+        max-width: 50%;
         text-justify: inter-word;
+        font-size: large;
     }
 
     .urban-store-illust-pic {
-        width: min-content;
+        min-width: auto;
+        max-width: 60%;
+        height: auto;
+    }
+
+    .logo-urban-store {
+        gap: 5px;
+    }
+
+    .urban-store-logo {
+        min-width: auto;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .en-construction-logo {
+        min-width: auto;
+        max-width: 250px;
+        height: auto;
     }
 
 }
