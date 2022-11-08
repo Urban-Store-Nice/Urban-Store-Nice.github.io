@@ -132,6 +132,29 @@ body {
     object-fit: cover;
 }
 
+.section-gdes-tailles {
+    align-items: center;
+    border: 1px none;
+    display: flex;
+    gap: 145px;
+    justify-content: left;
+    width: 100%;
+}
+
+.illustration-gdes-tailles {
+    height: 375px;
+    min-width: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.paragraphe-gdes-tailles {
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    width:80%;
+}
+
 
 @media screen and (max-width: 1024px) {
 
@@ -180,4 +203,21 @@ body {
         height: auto;
     }
 
+    .section-gdes-tailles {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: inherit;
+    }
+
+    .illustration-gdes-tailles {
+        min-width: auto;
+        max-width: 60%;
+        height: auto;
+    }
+
+    .paragraphe-gdes-tailles {
+        text-align: justify;
+    }
+
 }
+
